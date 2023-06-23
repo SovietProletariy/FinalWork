@@ -1,0 +1,63 @@
+nav {
+    position: relative;
+    width: 100%;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+    background: #060046;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  nav #first {
+    position: absolute;
+    width: 31%;
+    height: 128px;
+    left: 4%;
+    top: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #00229B;
+  }
+  nav #second {
+    position: absolute;
+    width: 31%;
+    height: 128px;
+    left: 64%;
+    top: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #00229B;
+
+}
+  
+.sectionimage{
+    position: flex;
+    top:170px;
+    left:0%;
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    position: relative;
+    font-size: x-large;
+    color: #FFFFFF;
+    font-size: x-large;
+    z-index: 10;
+    top: auto;
+}
+
+*{
+  background-color: #060046;
+}
+
+@media screen and(min-width:1280px){
+  section p{
+    font-size: xxx-large;
+  }
+}

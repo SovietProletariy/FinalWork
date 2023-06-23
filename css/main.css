@@ -1,0 +1,190 @@
+section {
+  background-image: url("../images/image 1.png");
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  left: 0px;
+  top: 0px;
+  background: #060046;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+nav #first {
+  position: absolute;
+  width: 31%;
+  height: 128px;
+  left: 4%;
+  top: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #00229B;
+}
+nav #second {
+  position: absolute;
+  width: 31%;
+  height: 128px;
+  left: 64%;
+  top: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #00229B;
+}
+
+section #background {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 162px;
+  z-index: -1;
+}
+section h2 {
+  position: absolute;
+  width: 41%;
+  height: 100px;
+  left: 29%;
+  top: 210px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+section div {
+  background: #1b0055;
+  border-radius: 7px;
+}
+section div .postimage {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  left: 25px;
+  top: 30px;
+}
+section div a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  width: 450px;
+  height: 144px;
+  left: 15px;
+  top: 110px;
+}
+section #f {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  left: 3%;
+  top: 339px;
+}
+section #s {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  left: 36%;
+  top: 339px;
+}
+section #t {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  left: 70%;
+  top: 339px;
+}
+
+footer h4 {
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  left: 0px;
+  top: 1180px;
+  background: #060046;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#mainbackground {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 170px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1580px) {
+  section #background {
+    height: 2400px;
+  }
+  section #f {
+    left: 35%;
+  }
+  section #s {
+    position: absolute;
+    left: 35%;
+    top: 1050px;
+  }
+  section #t {
+    position: absolute;
+    left: 35%;
+    top: 1760px;
+  }
+  footer h4 {
+    position: absolute;
+    top: 2500px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  * {
+    font-size: small;
+  }
+  section h2 {
+    font-size: large;
+  }
+  section #background {
+    height: 2400px;
+  }
+  section #f {
+    left: 0%;
+    width: 100%;
+  }
+  section #s {
+    position: absolute;
+    left: 0%;
+    top: 1050px;
+    width: 100%;
+  }
+  section #t {
+    position: absolute;
+    left: 0%;
+    top: 1760px;
+    width: 100%;
+  }
+  section div .postimage {
+    width: 80%;
+  }
+  footer h4 {
+    position: absolute;
+    top: 2500px;
+    font-size: small;
+  }
+}/*# sourceMappingURL=main.css.map */
